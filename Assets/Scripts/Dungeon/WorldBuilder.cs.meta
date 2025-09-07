@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 93f76677634299246ac710033347ba13
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - wallPrefab: {fileID: 9007340449642522025, guid: dbc4c32d4d0108b4c99a285826ca7d64,
+      type: 3}
+  - floorPrefab: {instanceID: 0}
+  - startPrefab: {fileID: 3480106653770824280, guid: 3f6561276e5ab414c818a3ad98b91ae1,
+      type: 3}
+  - endPrefab: {fileID: 8749759376550584235, guid: fe466668ca452a046a77f6c2fa4ac5b2,
+      type: 3}
+  - doorPrefab: {fileID: 3506150150555364863, guid: 57ef9dee95451d8469f649a2e67e8c4f,
+      type: 3}
+  - treasureChestPrefab: {fileID: 1129855231510856566, guid: 2d8244a89745f3443b17103203c76300,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b367ebdc6d9ac7149b7cc7f9ee837c96, type: 3}
+  m_Name: AttUp
+  m_EditorClassIdentifier: 
+  skillName: AttUp
+  icon: {fileID: 21300000, guid: 23e3487bd159e544bbce0a44b6faadc4, type: 3}
+  description: AttUp
+  cooldown: 5
+  manaCost: 0
+  healthCost: 0
+  effectPrefab: {fileID: 0}
+  castSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  teleportDistance: 0

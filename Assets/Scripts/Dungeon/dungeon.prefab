@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2482502898704918163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4103200345328728775}
+  - component: {fileID: 5701831499108930880}
+  m_Layer: 0
+  m_Name: dungeon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4103200345328728775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2482502898704918163}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.246435, y: 1.0319105, z: 16.617659}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5701831499108930880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2482502898704918163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f76677634299246ac710033347ba13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldWidth: 99
+  worldHeight: 99
+  wallPrefab: {fileID: 9007340449642522025, guid: dbc4c32d4d0108b4c99a285826ca7d64,
+    type: 3}
+  floorPrefab: {fileID: 0}
+  startPrefab: {fileID: 2026361865654055496, guid: 8267099350a1ec14caaf9c81b109ec18,
+    type: 3}
+  endPrefab: {fileID: 8749759376550584235, guid: fe466668ca452a046a77f6c2fa4ac5b2,
+    type: 3}
+  treasureChestPrefab: {fileID: 1129855231510856566, guid: 2d8244a89745f3443b17103203c76300,
+    type: 3}
+  npcPrefabs:
+  - {fileID: 5161670528215292900, guid: 7d43d13b1b23d0944993d50639be48f1, type: 3}
+  - {fileID: 5161670528215292900, guid: a25cd33aec6d69f4dbd6077882a37ac4, type: 3}
+  - {fileID: 5161670528215292900, guid: 4f58abe43b481914abc5d79360b43ca1, type: 3}
+  enemyPrefabs:
+  - {fileID: 2240892601216382687, guid: 8c8edb95db9555b46a255bbef08fecd8, type: 3}
+  - {fileID: 2240892601216382687, guid: 713864ebf047ac44eba76f185e0d1fd6, type: 3}
+  - {fileID: 2240892601216382687, guid: dd863590a6b20924e9ea993fb8336e72, type: 3}
+  numberOfRooms: 16
+  minRoomDimension: 5
+  maxRoomDimension: 15
+  maxRoomAttempts: 1500
+  minRoomSeparation: 3
+  minCorridorWidth: 1
+  maxCorridorWidth: 3
+  chestSpawnChance: 0.001
+  chestSpawnChanceInRoom: 0.005
+  npcSpawnChancePerRoom: 0.7
+  minNpcPerRoom: 1
+  maxNpcPerRoom: 3
+  enemySpawnChance: 0.05
+  enemySpawnChanceInRoom: 0.001
+  minEnemyPerRoom: 0
+  maxEnemyPerRoom: 1
